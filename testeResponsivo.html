@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+
+    <style>
+        #id_container {
+            /*display: flex;*/
+            background-color: #fff;
+        }
+        #tela_inicial {
+            color: blue;
+            /*float: left;*/
+        }
+        #tela_final {
+            color: green;
+            /*float: right;*/
+        }
+    </style>
+</head>
+<body>
+<div class="container" id="id_container">
+    <!-- Content here -->
+    <form action="" method="POST" id="id_form">
+        <div class="d-flex bd-highlight mb-3">
+            <section id="tela_inicial" class="mr-auto p-2 bd-highlight">
+                <div class="form-group">
+                    <label for="id_nome">Nome</label>
+                    <input type="text" class="form-control" id="id_nome" name="nome" autofocus/>
+                </div>
+                <div class="form-group">
+                    <label for="id_sobrenome">Sobrenome</label>
+                    <input type="text" class="form-control" id="id_sobrenome" name="sobrenome"/>
+                </div>
+                <div class="form-group">
+                    <label for="id_email">Email</label>
+                    <input type="email" class="form-control" id="id_email" name="email" aria-describedby="emailHelp"/>
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu email com mais ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="id_senha">Senha</label>
+                    <input type="password" class="form-control" id="id_senha" name="senha" required/>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="id_check" name="check"/>
+                    <label class="form-check-label" for="id_check">Clique em mim</label>
+                </div>
+                <div id="id_buttons">
+                    <button type="submit" class="btn btn-primary" id="id_salvar" name="salvar">Salvar</button>
+                    <button type="reset" class="btn btn-primary" id="id_apagar" name="apagar">Apagar</button>
+                </div>
+            </section>
+       
+            <section id="tela_final" class="ml-auto p-2 bd-highlight">
+                <div class="form-group">
+                    <label for="id_nome1">Nome</label>
+                    <input type="text" class="form-control" id="id_nome1" name="nome1" autofocus/>
+                </div>
+                <div class="form-group">
+                    <label for="id_sobrenome1">Sobrenome</label>
+                    <input type="text" class="form-control" id="id_sobrenome1" name="sobrenome1"/>
+                </div>
+                <div class="form-group">
+                    <label for="id_email1">Email</label>
+                    <input type="email" class="form-control" id="id_email1" name="email1" aria-describedby="emailHelp"/>
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu email com mais ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="id_senha1">Senha</label>
+                    <input type="password" class="form-control" id="id_senha1" name="senha1" required/>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="id_check1" name="check1"/>
+                    <label class="form-check-label" for="id_check">Clique em mim</label>
+                </div>
+                <div id="id_buttons1">
+                    <button type="submit" class="btn btn-primary" id="id_salvar1" name="salvar1">Salvar</button>
+                    <button type="reset" class="btn btn-primary" id="id_apagar1" name="apagar1">Apagar</button>
+                </div>
+            </section>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
